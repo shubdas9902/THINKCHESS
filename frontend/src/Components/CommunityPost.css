@@ -1,0 +1,23 @@
+.vertical-lines {
+    position: relative;
+    width: 100%;
+  }
+  
+  .vertical-lines::before,
+  .vertical-lines::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: white;
+  }
+  
+  .vertical-lines::before {
+    left: 0;
+  }
+  
+  .vertical-lines::after {
+    right: 0;
+  }
+  
