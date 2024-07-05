@@ -3,6 +3,7 @@ import "./CommunityBg.css"
 
 const CommunityBg = () => {
   return (
+    <div className='parent-container'>
     <div className='commbackground flex items-center justify-center'>
         <div className="text-center text-white">
         <div className='font-bold flex flex-col'>
@@ -19,7 +20,7 @@ const CommunityBg = () => {
         </div>
       </div>
     
-    </div>
+    </div></div>
   )
 }
 

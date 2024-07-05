@@ -11,7 +11,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="bg-black border-b-2 border-gray-700 flex justify-between items-center px-4 py-2">
+        <div className='border-b-2 border-gray-700 flex justify-between items-center px-4 py-2' style={{backgroundColor:"#0D1117"}}>
             <div>
                 <Link to="/" className='mx-3 font-bold'>
                     <span style={{ color: '#28A745' }}>Think</span>

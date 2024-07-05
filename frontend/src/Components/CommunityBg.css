@@ -4,4 +4,7 @@
     background-position: 50% 75%;
     background-repeat: no-repeat;
     height: 500px;
+    width: 90%; /* Set the width to be less than full width */
+    margin: 0 auto; /* Center the background */
+    border-radius: 15px; /* Add rounded corners */
 }

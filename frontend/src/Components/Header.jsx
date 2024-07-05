@@ -6,6 +6,7 @@ import Description from './description';
 
 const Home = () => {
   return (
+    <div className='parent-container'>
     <div className='background flex items-center justify-center'>
       <div className="text-center text-white">
         <Link to="/" className='font-bold'>
@@ -26,6 +27,7 @@ const Home = () => {
           </span>
         </div>
       </div>
+    </div>
     </div>
   );
 }

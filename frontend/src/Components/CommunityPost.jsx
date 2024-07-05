@@ -1,12 +1,13 @@
 import React from 'react';
+import "./CommunityPost.css"
 
 const CommunityPost = () => {
   return (
     <div className=' bg-[#0D1117] flex justify-center items-center'>
-      <div className='container mx-auto flex flex-col justify-center items-center h-full px-4 pt-20'>
+      <div className='container mx-auto flex  justify-center items-center h-full px-4 pt-20'>
         <img 
           src='https://yt3.googleusercontent.com/ytc/AIdro_l666v73iXmmqRbSBif4VC80eZCn9_gRvvKWZH6mf5xCTM=s900-c-k-c0x00ffffff-no-rj' 
-          className='w-20 h-20 rounded-full mb-4 border-2 border-white' 
+          className='img w-20 h-20 rounded-full mb-4 border-2 border-white' 
           alt='Community' 
         />
         <form className="max-w-sm w-full">
@@ -36,7 +37,7 @@ const CommunityPost = () => {
             Post
           </button>
         </form>
-        <hr className="w-full mt-4 border-t-2 border-white"/>
+        {/* <hr className="w-full mt-4 border-t-2 border-white"/> */}
       </div>
     </div>
   );

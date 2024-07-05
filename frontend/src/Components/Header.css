@@ -1,9 +1,15 @@
+.parent-container {
+  background-color: #0D1117; /* Set the background color for the remaining spaces */
+  
+}
 .background {
     background-image: url('https://images.unsplash.com/photo-1580541832626-2a7131ee809f?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNoZXNzfGVufDB8fDB8fHww');
-    background-size: cover;
     background-position: 50% 75%;
     background-repeat: no-repeat;
     height: 500px;
+    width: 90%; /* Set the width to be less than full width */
+    margin: 0 auto; /* Center the background */
+    border-radius: 15px; /* Add rounded corners */
   }
   
   @media (max-width: 768px) {
